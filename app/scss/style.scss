@@ -119,4 +119,78 @@
 .services__item-text{
     width: 190px;
 }
-  
+
+// section meet
+
+.meet{
+    min-height: 915px;
+    background-color: #e7f1f8;
+}
+.meet__inner{
+    padding-top: 115px;
+}
+.meet__title{
+    text-align: center;
+    font-size: 41px;
+    font-weight: 700;
+    color: #3c4761;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    position: relative;
+    &:after{
+        content: '';
+        width: 86px;
+        height: 4px;
+        background-color: #c8d9e5;
+        border-radius: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    } 
+}
+.meet__text{
+    text-align: center;
+    font-size: 19px;
+    color: #3c4761;
+    margin-bottom: 80px;
+}
+.meet__item-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.meet__item-img{
+    margin-bottom: 30px;
+    img{
+        margin: 0 auto;
+    }
+}
+.title-meet{
+    text-align: center;
+    font-size: 24px;
+    color: #27283d;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+.meet__item-title2{
+    text-align: center;
+    font-size: 16px;
+    color: #30bae7;
+    margin-bottom: 30px;
+}
+
+.meet__item-text{
+    text-align: center;
+    color: #3c4761;
+    width: 207px;
+    margin-bottom: 33px;
+}
+.meet__item-social{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    a + a{
+        margin-left: 12px;
+    }
+}
