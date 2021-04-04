@@ -194,3 +194,52 @@
         margin-left: 12px;
     }
 }
+
+// section skills
+.skills__inner{
+    background-color: #fff;
+    min-height: 655px;
+    padding-top: 115px;
+}
+.skills__title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #3c4761;
+    padding-bottom: 23px;
+    margin-bottom: 23px;
+    position: relative;
+    &:after{
+        content: '';
+        width: 86px;
+        height: 4px;
+        background-color: #dfe8ed;
+        border-radius: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    } 
+}
+.skills__text{
+    max-width: 574px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #3c4761;
+    margin-bottom: 85px;
+}
+.skills__item-inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.skills__item-images{
+    margin-bottom: 30px;
+}
+.skills__item-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3c4761;
+    text-align: center;
+}
