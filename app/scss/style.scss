@@ -332,3 +332,77 @@
     font-weight: 600;
 }
 }
+
+// section people
+
+.people{
+    padding: 120px 0 130px;
+    background-color: #d74680;
+    color: #fff;
+}
+.people__title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    margin: 24px;
+    position: relative;
+    letter-spacing: 2px;
+    &:after{
+        content: '';
+        width: 86px;
+        height: 4px;
+        background-color: #b73c6d;
+        border-radius: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    } 
+}
+.people__text{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+.people__item-text{
+    width: 327px;
+    margin-bottom: 35px;
+    font-style: italic;
+    font-size: 21px;
+}
+.people__item{
+    max-width: 477px;
+    padding-left: 138px;
+    margin-left: 70px;
+    position: relative;
+    margin-bottom: 55px;
+    &::before{
+        content: '';
+        background-image: url(../images/Bas.png);
+        background-repeat: no-repeat;
+        width: 99px;
+        height: 99px;
+        position: absolute;
+        top: -8px;
+        left: 0;
+    }
+}
+.people__item-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pad{
+    margin-bottom: 150px;
+}
+.people__item-title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.people__item-subtitle{
+    font-size: 18px;
+    color: #ffdd99;
+}

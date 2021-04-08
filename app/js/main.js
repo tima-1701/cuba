@@ -1,6 +1,3 @@
 $(function(){
-
-var mixer = mixitup('.our__mix-box');
-
-
+    return Mixer = mixitup ( '.our__mix' );
 });
